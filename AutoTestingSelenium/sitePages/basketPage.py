@@ -24,7 +24,6 @@ class BasketPage(FirstPage):
         time.sleep(1)
         self.driver.find_element(*self.filterBtn).click()
         self.driver.find_element(*self.filterBtn2).click()
-        self.driver.find_element(*self.busketBtn2).click()
-        self.driver.find_element(*self.purchaseBtn).click()
+
 
 

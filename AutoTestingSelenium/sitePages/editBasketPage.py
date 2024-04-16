@@ -26,6 +26,6 @@ class BasketEditionPage(FirstPage):
         self.driver.find_element(*self.filterBtn).click()
         self.driver.find_element(*self.filterBtn2).click()
         self.driver.find_element(*self.busketBtn2).click()
-        self.driver.find_element(*self.purchaseBtn).click()
+
         self.driver.find_element(*self.plusBtn).click()
         time.sleep(5)
